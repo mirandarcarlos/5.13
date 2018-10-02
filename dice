@@ -19,7 +19,6 @@ if num_rolls >= 1:
         die2 = random.randint(1,6)
         roll_total = die1 + die2
 
-        #Count number of sixes and sevens
         if roll_total == 2:
             num_twos += 1
         if roll_total == 3:
